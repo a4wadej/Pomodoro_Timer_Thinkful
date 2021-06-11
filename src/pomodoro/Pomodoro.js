@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import useInterval from "../utils/useInterval";
 import { minutesToDuration } from "../utils/duration";
-import SessionInformation from "../session-information/SessionInformation";
+import SessionInformation from "./SessionInfo";
 import DurationSetting from "../duration-setting/DurationSetting";
 import ControlPanel from "../control-panel/ControlPanel";
 
